@@ -1,7 +1,5 @@
 #maincontainer {
     display: grid;
-    grid-template-columns: repeat(16,auto);
-    grid-template-rows: repeat(16,auto);
     width: 10px;
 }
 button {
