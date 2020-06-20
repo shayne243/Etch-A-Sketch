@@ -11,22 +11,14 @@ function generateGrid() {
         });
         container.appendChild(newDiv);
     }
+    container.setAttribute("width", "320px");
+    container.setAttribute("height", "320px");
 }
 function clearGrid() {
     let grid = document.querySelectorAll(".box");
     for (let i = 0; i < grid.length; i++) {
         grid[i].style.background = "aqua";
     }
-}
-function shrinkGrid() {
-    rows *= 0.5;
-    cols *= 0.5;
-    generateGrid();
-}
-function growGrid() {
-    rows *= 2;
-    cols *= 2;
-    generateGrid();
 }
 generateGrid();
 const clearbtn = document.getElementById("clear");

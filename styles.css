@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 #maincontainer {
     display: grid;
-    width: 10px;
+    width: 390px;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
 }
 button {
     margin: 20px;
@@ -10,4 +14,20 @@ button {
     width: 20px;
     background-color: #00ffff;
     border: magenta solid;
+    justify-self: center;
+    transition: ease-in;
+    margin: 0px;
+}
+main {
+    text-align: center;
+}
+h1, h2 {
+    font-family: Staatliches, cursive;
+}
+button {
+    font-family: Staatliches, cursive;
+    font-size: 20px;
+}
+body {
+    background: rgba(255, 255, 0, 0.7);
 }
